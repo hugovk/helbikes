@@ -15,8 +15,9 @@ It uses:
 
 Corrections:
 
-I made some updates to the bike shop list, but I expect more updates are needed. Think of it as a guide. 
-The map is made from [this list of bike shops](https://github.com/hugovk/helbikes/blob/master/helbikes/bikeshops.csv), 
+I made some updates to the bike shop list, but there will be some mistakes. Think of it as a guide. 
+I got the latitude and longitude coordinates from each address using [GPS Visualizer](http://www.gpsvisualizer.com/geocoding.html). 
+The map is made from [this .csv list of bike shops](https://github.com/hugovk/helbikes/blob/master/helbikes/bikeshops.csv), 
 each with an address, optional notes, and latitude and longitude coordinates, each separated by a semicolon, like this:
 
     Action Factory;Tehtaankatu 25,00150 Helsinki;;60.157813;24.935847
@@ -26,4 +27,3 @@ If you spot a mistake, you can send a correction in one of these ways:
  * Update [bikeshops.csv](https://github.com/hugovk/helbikes/blob/master/helbikes/bikeshops.csv) and send a pull request;
  * Create a [new issue](https://github.com/hugovk/helbikes/issues); or
  * Tell me another way.
-
