@@ -7,18 +7,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<!-- Leaflet 0.5: https://github.com/CloudMade/Leaflet-->
-		<link rel="stylesheet" href="../lib/leaflet.css" />
-		<!--[if lte IE 8]> <link rel="stylesheet" href="../lib/leaflet.ie.css" />  <![endif]-->  
-		<script src="../lib/leaflet.js"></script>
+		<link rel="stylesheet" href="lib/leaflet.css" />
+		<!--[if lte IE 8]> <link rel="stylesheet" href="lib/leaflet.ie.css" />  <![endif]-->
+		<script src="lib/leaflet.js"></script>
 
 		<!-- MarkerCluster https://github.com/danzel/Leaflet.markercluster -->
-		<link rel="stylesheet" href="../lib/MarkerCluster.css" />
-		<link rel="stylesheet" href="../lib/MarkerCluster.Default.css" />
-		<!--[if lte IE 8]> <link rel="stylesheet" href="../lib/MarkerCluster.Default.ie.css" /> <![endif]-->
-		<script src="../lib/leaflet.markercluster-src.js"></script>
+		<link rel="stylesheet" href="lib/MarkerCluster.css" />
+		<link rel="stylesheet" href="lib/MarkerCluster.Default.css" />
+		<!--[if lte IE 8]> <link rel="stylesheet" href="lib/MarkerCluster.Default.ie.css" /> <![endif]-->
+		<script src="lib/leaflet.markercluster-src.js"></script>
 
 		<!-- GeoCSV: https://github.com/joker-x/Leaflet.geoCSV -->
-		<script src="../lib/leaflet.geocsv-src.js"></script>
+		<script src="lib/leaflet.geocsv-src.js"></script>
 
 		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
@@ -115,8 +115,8 @@ var bikeshops = L.geoCsv(null, {
 	pointToLayer: function (feature, latlng) {
 		return L.marker(latlng, {
 			icon:L.icon({
-				iconUrl: '../lib/images/marker-icon.png',
-				shadowUrl: '../lib/images/marker-shadow.png',
+				iconUrl: 'lib/images/marker-icon.png',
+				shadowUrl: 'lib/images/marker-shadow.png',
 				iconSize:     [25,41],
 				shadowSize:   [41, 41],
 				shadowAnchor: [13, 20]

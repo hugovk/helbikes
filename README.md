@@ -5,7 +5,7 @@ A mobile-friendly map of bicycle shops in  in the greater Helsinki area. Click "
 
 See the map:
 
- * https://hugovk.github.io/helbikes/helbikes/
+ * https://hugovk.github.io/helbikes/
 
 It uses:
 
